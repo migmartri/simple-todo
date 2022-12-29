@@ -2,14 +2,14 @@ name: Release
 
 on:
   push:
-    # tags:
-    #   - "v*.*.*"
+    tags:
+      - "v*.*.*"
 
 jobs:
   release:
     name: Release
     runs-on: ubuntu-latest
-    # if: github.ref_type == 'tag'
+    if: github.ref_type == 'tag'
     permissions:
       contents: write # required for goreleaser
     steps:

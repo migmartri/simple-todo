@@ -1,3 +1,5 @@
+# MOVED TO https://github.com/chainloop-dev/integration-demo
+
 # simple-todo
 
 A Simple REST Server app, using golang and sqlite, build for testing client app, the SQLITE file already contain some example data
